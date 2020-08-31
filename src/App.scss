@@ -1,0 +1,14 @@
+@import '~@sweetalert2/theme-bootstrap-4/bootstrap-4.scss';
+@import "~animate.css";
+
+body, html {
+  height: 100%;
+}
+
+textarea:focus, input:focus {
+  outline: none;
+}
+
+button {
+  border-radius: 0 !important;
+}

@@ -1,0 +1,25 @@
+.highlight-products {
+  .product-img {
+    width: 100%;
+    height: 486px;
+    object-fit: cover;
+  }
+
+  .product-btn {
+    border: none;
+    cursor: pointer;
+    padding: 12px 24px;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+
+    &:hover {
+      p {
+        color: darkslategray;
+      }
+    }
+
+  }
+}

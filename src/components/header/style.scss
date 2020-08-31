@@ -1,0 +1,33 @@
+.nav-link {
+  &:hover {
+    border-bottom: 1px solid #282c34;
+    transition: border-bottom-width 300ms linear;
+  }
+}
+
+.secondary-navs {
+  height: 136px;
+  padding-top: 106px;
+  border-bottom: 1px solid #c8cbcc;
+
+}
+
+.search-ic {
+  z-index: 9;
+  right: 1.5rem;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+.cart-ic {
+
+}
+
+#navbar {
+  z-index: 99 !important;
+  position: fixed; /* Make it stick/fixed */
+  top: 0; /* Stay on top */
+  width: 100%; /* Full width */
+  transition: top 300ms; /* Transition effect when sliding down (and up) */
+  transition-delay: 200ms;
+}

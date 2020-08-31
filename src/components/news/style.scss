@@ -1,0 +1,26 @@
+.news-container {
+  background-color: #f8c842;
+  text-align: center;
+  overflow: hidden;
+
+  h4 {
+    margin: 12px 0;
+    width: 100%;
+    font-size: 26px;
+    line-height: 24px;
+    @media (min-width: 960px) {
+      letter-spacing: 1.5px;
+    }
+
+
+  }
+
+  div {
+    @media (min-width: 960px) {
+      margin-top: 36px;
+      margin-bottom: 18px;
+    }
+  }
+
+
+}
